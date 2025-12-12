@@ -62,17 +62,14 @@ android {
         viewBinding true // Permite una vinculación más segura con las vistas XML
     }
 }
-
 dependencies {
     // Plataforma Firebase (Bill of Materials) para gestionar versiones
     implementation(platform("com.google.firebase:firebase-bom:34.6.0"))
-    
     // Componentes visuales y de sistema
     implementation("com.google.firebase:firebase-analytics")
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1' // Material Design (CardView, Inputs)
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    
     // Servicios Backend (Firebase)
     implementation 'com.google.firebase:firebase-auth:21.0.6' // Inicio de sesión
     implementation 'com.google.firebase:firebase-database:20.0.5' // Base de datos Realtime
