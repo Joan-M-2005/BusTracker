@@ -1,5 +1,5 @@
 + Manual de Desarrollo: Sistema de Rastreo de Transporte Escolar (BusTracker1)
-1. Introducción y Requisitos del Sistema
++ -1. Introducción y Requisitos del Sistema
 Este proyecto consiste en una aplicación Android nativa desarrollada en Java que permite la gestión y rastreo de transporte escolar en tiempo real. El sistema conecta tres roles principales:
 
 Administrador: Gestiona conductores, alumnos y rutas.
